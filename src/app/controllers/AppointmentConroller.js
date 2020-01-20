@@ -30,7 +30,7 @@ class AppointmentController {
     }
 
     /**
-     * Check for past dates
+     * Check for past dates ok
      */
     const hourStart = startOfHour(parseISO(date));
 
