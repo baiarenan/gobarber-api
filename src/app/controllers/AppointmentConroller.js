@@ -1,3 +1,7 @@
+/**
+ * AppointmentController = Schedules for User
+ */
+
 import * as Yup from 'yup';
 import { startOfHour, parseISO, isBefore } from 'date-fns';
 import Appointment from '../models/Appointment';
